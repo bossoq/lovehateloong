@@ -138,6 +138,16 @@ function App() {
                   '...'
                 )}
               </span>
+              <p className="pt-6">
+                <a
+                  href="https://rakloongtoo.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="is-size-6 is-size-4-desktop has-text-white has-text-weight-medium"
+                >
+                  ร่วมโหวตได้ที่นี่
+                </a>
+              </p>
             </div>
           </div>
           <div
@@ -159,6 +169,16 @@ function App() {
                   '...'
                 )}
               </span>
+              <p className="pt-6">
+                <a
+                  href="https://vote.ptp.or.th/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="is-size-6 is-size-4-desktop has-text-white has-text-weight-medium"
+                >
+                  ร่วมโหวตได้ที่นี่
+                </a>
+              </p>
             </div>
           </div>
         </div>
