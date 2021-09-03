@@ -139,7 +139,7 @@ function App() {
                     )}
                   </animated.div>
                 ) : (
-                  '...'
+                  'ไม่สามารถเชื่อมต่อกับเวปไซต์ปลายทางได้'
                 )}
               </span>
               <p className="pt-6">
@@ -170,7 +170,7 @@ function App() {
                     )}
                   </animated.div>
                 ) : (
-                  '...'
+                  'ไม่สามารถเชื่อมต่อกับเวปไซต์ปลายทางได้'
                 )}
               </span>
               <p className="pt-6">
