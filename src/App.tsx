@@ -66,7 +66,9 @@ function App() {
           response.data.forEach((province: HateLoongProvince) => {
             hateVote += province.vote
           })
-          setHateLoong(hateVote)
+          if (hateVote > 0 && hateVote > (hateLoong || 0)) {
+            setHateLoong(hateVote)
+          }
         })
     }, 10000)
     return () => {
@@ -84,7 +86,9 @@ function App() {
           response.data.forEach((province: LoveLoongProvince) => {
             loveVote += province.count
           })
-          setLoveLoong(loveVote)
+          if (loveVote > 0 && loveVote > (loveLoong || 0)) {
+            setLoveLoong(loveVote)
+          }
         })
     }, 10000)
     return () => {
