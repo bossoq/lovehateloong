@@ -149,7 +149,7 @@ function App() {
                   rel="noreferrer"
                   className="is-size-6 is-size-4-desktop has-text-white has-text-weight-medium"
                 >
-                  ร่วมโหวตได้ที่นี่
+                  ปิดโหวตแล้ว (แหล่งที่มาข้อมูล https://rakloongtoo.com/)
                 </a>
               </p>
             </div>
@@ -180,7 +180,7 @@ function App() {
                   rel="noreferrer"
                   className="is-size-6 is-size-4-desktop has-text-white has-text-weight-medium"
                 >
-                  ร่วมโหวตได้ที่นี่
+                  ปิดโหวตแล้ว (แหล่งที่มาข้อมูล https://vote.ptp.or.th/)
                 </a>
               </p>
             </div>
